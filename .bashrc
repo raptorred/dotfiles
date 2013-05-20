@@ -33,9 +33,11 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias gi='get_iplayer --nopurge'
-alias rcp='rsync -P'
+alias rcp='rsync --progress -ah'
+alias rmv='rsync --progress -ah --remove-sent-files'
 alias hg='history | grep -i'
 alias nas='mosh nas@192.168.2.10'
+alias wine32='WINEARCH=win32 WINEPREFIX=~/win32 wine'
 # mplayer section
 alias dvd='mplayer -vf pp=fb dvdnav://'
 
