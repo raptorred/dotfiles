@@ -16,6 +16,7 @@ fi
 
 # Put your fun stuff here.
 export PATH="/root/.gem/ruby/2.0.0/bin/:$PATH"
+export PATH="/home/raptorred/.gem/ruby/2.0.0/bin/:$PATH"
 export EDITOR="/usr/bin/nano"
 export PS1='\[\033[1;34m\][ \[\033[0m\033[1;32m\]\u\[\033[0m\] @ \[\033[1;36m\]\h\[\033[0m\033[1;34m\] ] - [ \[\033[0m\]\t\[\033[1;34m\] ] - [ \[\033[0m\]\w\[\033[1;34m\] ]\n\[\033[1;34m\][\[\033[0m\033[1;35m\]\$\[\033[0m\033[1;34m\]]>\[\033[0m\] '
 alias c='clear'
